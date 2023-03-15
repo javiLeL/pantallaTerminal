@@ -1,4 +1,4 @@
-package arbolFractal;
+package examples.arbolFractal;
 
 import pantallaTeriminal.Pantalla;
 

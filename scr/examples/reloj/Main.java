@@ -1,4 +1,4 @@
-package reloj;
+package examples.reloj;
 
 import java.time.LocalDateTime;
 import pantallaTeriminal.Pantalla;
