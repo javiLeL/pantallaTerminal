@@ -3,13 +3,14 @@ package examples.trifuerzaFractal;
 import pantallaTeriminal.Pantalla;
 
 public class Main {
+    public static final String ANSI_YELLOW = "\u001B[33m";
     static Pantalla pantalla = new Pantalla(0, 0, 80, 80);
     static int frameCount=0;
     public static void main(String[] args) {
         do{
             Pantalla.limpiarPantalla();
             pantalla.background("  ");
-            trinagulo(pantalla.width/2, pantalla.height/2, 40-frameCount, "**");
+            trinagulo(pantalla.width/2, pantalla.height/2, 40-frameCount, ANSI_YELLOW+"**");
 
             pantalla.refrescar();
             try {
