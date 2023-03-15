@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Pantalla {
 	int xi, yi;
-	int width, height;
+	public int width;
+    public int height;
 	String[][] pantalla;
 	float df;
 	int pcamx = 0, pcamy = 0;
