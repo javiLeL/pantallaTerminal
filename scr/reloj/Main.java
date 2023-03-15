@@ -4,12 +4,10 @@ import java.time.LocalDateTime;
 import pantallaTeriminal.Pantalla;
 
 public class Main {
+	static final String ANSI_WHITE = "\u001B[37m", ANSI_RED = "\u001B[31m", ANSI_BLUE = "\u001B[34m";
 	public static void main(String[] args) {
 		Pantalla pantalla = new Pantalla(0, 0, 30, 30);
 
-		final String ANSI_WHITE = "\u001B[37m";
-		final String ANSI_RED = "\u001B[31m";
-		final String ANSI_BLUE = "\u001B[34m";
 
 		Pantalla.limpiarPantalla();
 		while(true) {
