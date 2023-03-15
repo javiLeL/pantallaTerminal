@@ -3,7 +3,6 @@ package arbolFractal;
 import pantallaTeriminal.Pantalla;
 
 public class Main {
-    static String keyPressed = "";
     static Pantalla pantalla = new Pantalla(0, 0, 55, 40);
     static int frameCount=0;
 
